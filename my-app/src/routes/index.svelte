@@ -41,10 +41,49 @@
 </section>
 
 <style>
+    #home {
+        background-color: #253439;
+        color: white;
+        padding: 2rem 1.5rem;
+    }
+
+    .home .home-title {
+        font-family: 'Coco-Gothic';
+        letter-spacing: 0.09rem;
+        font-size: 2rem;
+        margin: 1rem 0rem;
+        font-weight: bold;
+    }
+
+    .home .home-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        line-height: 1.2rem;
+    }
+
+    .home-text p {
+        margin: 1rem 0rem;
+    }
+
+    .home .home-content .contact-info {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.08rem;
+        line-height: 1.2rem;
+    }
+    
+    .home-photo {
+        margin: 1rem 0rem;
+    }
+
     .programming {
-        width: 2.5em;
+        width: 2.5rem;
+        height: 2.5rem;
         display: flex;
         flex-direction: row;
+        gap: 0.5rem;
+        margin: 1.3rem 0rem;
     }
 </style>
 
