@@ -1,8 +1,6 @@
-<!-- <button on:click="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-up"></button> -->
-    
     <nav class="navbar">
         <div class="logo">
-            <a href="index.html"><img src="/yhlogo.svg" alt="Yuliya Hagberg" class="logo"/></a>
+            <a href="/"><img src="/yhlogo.svg" alt="Yuliya Hagberg" class="logo"/></a>
         </div>
         <div class="social">
             <a href="mailto:yuliya.swe@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i></a>
@@ -11,10 +9,10 @@
         </div>
         <div class="mainnav">
             <ul class="menu">
-                <li><a href="utbildning.svelte">Utbildning</a></li>
-                <li><a href="erfarenhet.svelte">Erfarenhet</a></li>
-                <li><a href="portfolio.svelte">Portfolio</a></li>
-                <li><a href="om_mig.svelte">Om mig</a></li>
+                <li><a href="utbildning">Utbildning</a></li>
+                <li><a href="erfarenhet">Erfarenhet</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="about">Om mig</a></li>
             </ul>
         </div>
 
