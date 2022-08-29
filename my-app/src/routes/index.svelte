@@ -102,24 +102,26 @@
     <Button/>
 </section>
 
+<Footer/>
+
 <style>
     #home {
         background-color: #253439;
         color: white;
-        padding: 2rem 1.5rem;
+        padding: 2rem 10%;
     }
 
     .home .home-title {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.09rem;
-        font-size: 2rem;
-        margin: 1rem 0rem;
+        font-size: 1.5rem;
+        margin: 0.5rem 0rem;
         font-weight: bold;
     }
 
     .home .home-text {
         font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
+        font-size: 0.8rem;
         letter-spacing: 0.08rem;
         line-height: 1.2rem;
     }
@@ -130,7 +132,7 @@
 
     .home .home-content .contact-info {
         font-family: 'Open Sans', sans-serif;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         letter-spacing: 0.08rem;
         line-height: 1.2rem;
     }
@@ -152,10 +154,48 @@
         color: white;
         font-family: 'Open Sans', sans-serif;
         font-weight: light;
-        font-size: medium;
+        font-size: small;
         text-decoration: none;
         position: relative;
     }
-</style>
 
-<Footer/>
+    @media only screen and (min-width: 680px) {
+        #home {padding: 2rem 10%;}
+        .home {display:grid; grid-template-columns: 2fr 1fr; column-gap: 2rem;}
+        .home-photo {width: 15rem;}
+        .typewrite {font-size: 0.8rem;}
+    }
+    @media only screen and (min-width: 940px) {
+        #home {padding: 3rem 15%;}
+        .home {column-gap: 2.3rem;}
+        .home .home-title {font-size: 1.5rem;}
+        .home .home-text {font-size: 0.9rem;}
+        .home-text p {line-height: 1.5rem;}
+        .home .home-content .contact-info {font-size: 0.8rem;}
+        .home-photo {width: 16rem;}
+        .typewrite {font-size: 0.9rem;}
+    }
+    @media only screen and (min-width: 1200px) {
+        #home {padding: 3rem 17%;}
+        .home {column-gap: 3rem;}
+        .home .home-title {font-size: 1.8rem;}
+        .home .home-text {font-size: 1rem;}
+        .home-photo {width: 18rem;}
+        .home .home-content .contact-info {font-size: 0.9rem;}
+        .typewrite {font-size: 1rem;}
+    }
+    @media only screen and (min-width: 1600px) {
+        #home {padding: 4rem 20%;}
+        .home .home-title {font-size: 2.5rem;}
+        .home .home-text {font-size: 1.4rem; margin: 1rem 0rem;}
+        .home-text p {line-height: 2.2rem; margin: 1rem 0rem;}
+        .home-photo {width: 21rem;}
+        .home .home-content .contact-info {font-size: 1.2rem;  line-height: 2rem;}
+        .typewrite {font-size: 1.4rem;}
+        .programming {
+            width: 3.5rem;
+            height: 3.5rem;
+            gap: 1rem;
+            margin: 1.7rem 0rem;}
+    }
+</style>

@@ -68,21 +68,20 @@
     .filosofi .title {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.09rem;
-        font-size: 2rem;
-        padding-top: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .filosofi .title2 {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.09rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 1rem 0rem 0rem 0rem;
     }
 
     .filosofi .text {
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 0.09rem;
-        font-size: 1rem;
+        font-size: 0.7rem;
         text-align: left;
     }
 
@@ -90,9 +89,45 @@
         font-family: 'Coco-Gothic', bold;
         font-weight: bolder;
         letter-spacing: 0.09rem;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         text-align: center;
-        padding: 1rem 1rem;
+        padding: 1rem 10%;
+    }
+    @media only screen and (min-width: 640px) {
+        .filosofi {padding: 2.5rem 20% 3rem 10%;}
+        .filosofi .title {font-size: 1.3rem;}
+        .filosofi .title2 {
+            font-size: 1rem;
+            padding: 1.1rem 0rem 0rem 0rem;}
+        .filosofi .text {font-size: 0.7rem;}
+        .filosofi .middle {font-size: 0.8rem; padding: 1.5rem 15%;}
+    }
+    @media only screen and (min-width: 940px) {
+        .filosofi {padding: 2rem 25% 3rem 13%;}
+        .filosofi .title {font-size: 1.5rem;}
+        .filosofi .title2 {
+            font-size: 1.3rem;
+            padding: 1.2rem 0rem 0rem 0rem;}
+        .filosofi .text {font-size: 0.8rem;}
+        .filosofi .middle {font-size: 0.9rem; padding: 1.7rem 15%;}
+    }
+    @media only screen and (min-width: 1200px) {
+        .filosofi {padding: 3rem 30% 3rem 15%;}
+        .filosofi .title {font-size: 1.7rem;}
+        .filosofi .title2 {
+            font-size: 1.5rem;
+            padding: 1.4rem 0rem 0.3rem 0rem;}
+        .filosofi .text {font-size: 1rem;}
+        .filosofi .middle {font-size: 1.1rem; padding: 1.7rem 15%;}
+    }
+    @media only screen and (min-width: 1600px) {
+        .filosofi {padding: 4rem 35% 6rem 18%;}
+        .filosofi .title {font-size: 2rem;}
+        .filosofi .title2 {
+            font-size: 1.8rem;
+            padding: 1.8rem 0rem 0.3rem 0rem;}
+        .filosofi .text {font-size: 1.2rem;}
+        .filosofi .middle {font-size: 1.3rem; padding: 1.7rem 15%;}
     }
 </style>
 

@@ -114,14 +114,14 @@
     .title {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 0.1rem;
     }
 
     .text1 {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.09rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 0.6rem 0rem;
     }
 
@@ -140,14 +140,58 @@
     }
 
     .aside {
-        width: 3rem;
-        height: 3rem;
+        width: 2.7rem;
+        height: 2.7rem;
     }
 
     .flex-container {
         display: grid;
-        grid-template-columns: 3rem auto;
+        grid-template-columns: 12.5% auto;
         padding: 1rem;
         column-gap: 1rem;
+    }
+
+    @media only screen and (min-width: 640px) {
+        .utbildning {padding: 1.5rem 15% 3rem 10%;}
+        .title {font-size: 1.2rem;}
+        .text1 {
+            font-size: 1rem;
+            padding: 0.5rem 0rem;}
+        .text2 {font-size: 0.9rem;}
+        .text3 {font-size: 0.9rem;}
+        .aside {
+            width: 4rem;
+            height: 4rem;}
+    }
+    @media only screen and (min-width: 940px) {
+        .utbildning {padding: 2rem 18% 3rem 10%;}
+        .title {font-size: 1.3rem;}
+        .text1 {font-size: 1rem;}
+        .text2 {font-size: 1rem;}
+        .text3 {font-size: 1rem;}
+        .aside {
+            width: 5rem;
+            height: 5rem;}
+    }
+    @media only screen and (min-width: 1200px) {
+        .utbildning {padding: 3rem 20% 4rem 13%;}
+        .title {font-size: 1.5rem;}
+        .text1 {font-size: 1.1rem;}
+        .text2 {font-size: 1.1rem;}
+        .text3 {font-size: 1.1rem;}
+        .aside {
+            width: 6rem;
+            height: 6rem;}
+    }
+    @media only screen and (min-width: 1600px) {
+        .utbildning {padding: 3rem 23% 4rem 15%;}
+        .flex-container {padding: 2rem 0rem;}
+        .title {font-size: 1.7rem;}
+        .text1 {font-size: 1.4rem;}
+        .text2 {font-size: 1.4rem;}
+        .text3 {font-size: 1.4rem;}
+        .aside {
+            width: 7rem;
+            height: 7rem;}
     }
 </style>

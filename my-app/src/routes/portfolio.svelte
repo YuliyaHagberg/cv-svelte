@@ -37,7 +37,7 @@
             <img id="long-pic" src="/PElogolong.svg" alt="">-->
     </div>
     <div class="modul" class:invisible={!show}>
-        <div class="absolute top-0 right-0 m-4 p-1 rounded-full" on:click={() => show = !show}><i class="fa-solid fa-xmark"></i></div>
+        <div class="absolute top-0 right-0 rounded-full" on:click={() => show = !show}><i class="fa-solid fa-circle-xmark"></i></div>
         <img id="portfolio-img" src={source} alt="">
     </div>
 <Button/>
@@ -53,73 +53,127 @@
         padding-top: 1rem;
         background-color: #253439;
     }
-
     .title {
         font-family: 'Coco-Gothic';
         letter-spacing: 0.1em;
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         padding-top: 1em;
     }
-
     .container3 {
         display: flex;
         flex-direction: row;
-        gap: 0.8rem;
+        gap: 0.5rem;
         justify-content: center;
         flex-wrap: wrap;
         padding: 0.5rem;
     }
-
     .flex-item {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         background-size: cover;
         background-position: center;
         opacity: 70%;
     }
-
-    .flex-item:hover {
-        opacity:100%;
-    }
-
+    .flex-item:hover {opacity:100%;}
     .container4 {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
-
     img {
-        width: 8rem;
-        height: 8rem;
+        width: 6rem;
+        height: 6rem;
         margin: 0.5rem;
         cursor: pointer;
     }
-
-    img:hover {
-        filter:brightness(0.8);
-    }
-
+    .container4 img:hover {filter:brightness(0.8);}
     .modul {
         position: fixed;
         top: calc(50% - 25rem / 2);
         left: calc(50% - 25rem / 2);
         z-index: 999999;
+        padding: 1.5rem;
     }
-
-    .modul div {
-        background-color: #B29E84;
+    .modul div {color:#253439; font-size: 1.5rem; cursor: pointer;}
+    .modul i {padding: 0.1rem;
+        background-color: white;
+        border-radius: 50%;
     }
-
-    .modul div:hover {
-        background-color: #253439;
-        transition: 1s;
-    }
-
     .modul img {
         z-index: 999999;
-        width: 25rem;
-        height: 25rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    @media only screen and (min-width: 640px) {
+        .portfolio {padding-top: 2rem;}
+        .title {font-size: 1rem;}
+        .flex-item {
+            width: 3.5rem;
+            height: 3.5rem;}
+        img {
+            width: 9rem;
+            height: 9rem;}
+        .modul {
+            position: fixed;
+            top: calc(50% - 25rem / 2);
+            left: calc(50% - 25rem / 2);}
+        .modul div {color:#253439}
+        .modul img {
+            width: 20rem;
+            height: 20rem;}
+    }
+    @media only screen and (min-width: 940px) {
+        .portfolio {padding-top: 2.2rem;}
+        .title {font-size: 1.1rem;}
+        .flex-item {
+            width: 4.5rem;
+            height: 4.5rem;}
+        img {
+            width: 11rem;
+            height: 11rem;}
+        .modul {
+            position: fixed;
+            top: calc(50% - 25rem / 2);
+            left: calc(50% - 25rem / 2);}
+        .modul img {
+            width: 23rem;
+            height: 23rem;}
+    }
+    @media only screen and (min-width: 1200px) {
+        .portfolio {padding-top: 2.4rem;}
+        .title {font-size: 1.2rem; margin-bottom: 1rem;}
+        .flex-item {
+            width: 6.5rem;
+            height: 6.5rem;}
+        img {
+            width: 15rem;
+            height: 15rem;}
+        .modul {
+            position: fixed;
+            top: calc(50% - 25rem / 2);
+            left: calc(50% - 25rem / 2);}
+        .modul img {
+            width: 26rem;
+            height: 26rem;}
+    }
+    @media only screen and (min-width: 1600px) {
+        .portfolio {padding-top: 2.7rem;}
+        .title {font-size: 1.7rem; margin-bottom: 1.2rem;}
+        .flex-item {
+            width: 8.5rem;
+            height: 8.5rem;}
+        img {
+            width: 20rem;
+            height: 20rem;}
+        .modul {
+            position: fixed;
+            top: calc(50% - 25rem / 2);
+            left: calc(50% - 25rem / 2);}
+        .modul img {
+            width: 31rem;
+            height: 31rem;}
     }
 </style>
