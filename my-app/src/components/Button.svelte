@@ -44,8 +44,35 @@ import { onMount } from "svelte";
         border-radius: 0.5rem;
         font-size: 0.8rem;
     }
-    
-    #myBtn:hover {
-        background-color: #555;
+    #myBtn:hover {background-color: #555;}
+
+    @media only screen and (min-width: 640px) {
+        #myBtn {
+            bottom: 2rem;
+            right: 2rem;
+        }
+    }
+    @media only screen and (min-width: 940px) {
+        #myBtn {
+            bottom: 2.3rem;
+            right: 2.3rem;
+            font-size: 0.9rem;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        #myBtn {
+            bottom: 2.5rem;
+            right: 2.5rem;
+            padding: 0.9rem;
+            font-size: 0.9rem;
+        }
+    }
+    @media only screen and (min-width: 1600px) {
+        #myBtn {
+            bottom: 3.1rem;
+            right: 3.1rem;
+            padding: 1rem;
+            font-size: 1.8rem;
+        }
     }
 </style>

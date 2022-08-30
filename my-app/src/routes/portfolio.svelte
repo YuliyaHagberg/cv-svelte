@@ -91,8 +91,8 @@
     .container4 img:hover {filter:brightness(0.8);}
     .modul {
         position: fixed;
-        top: calc(50% - 25rem / 2);
-        left: calc(50% - 25rem / 2);
+        top: calc(50% - 21rem / 2);
+        left: calc(50% - 21rem / 2);
         z-index: 999999;
         padding: 1.5rem;
     }
@@ -103,8 +103,8 @@
     }
     .modul img {
         z-index: 999999;
-        width: 15rem;
-        height: 15rem;
+        width: 18rem;
+        height: 18rem;
     }
 
     @media only screen and (min-width: 640px) {
@@ -118,8 +118,8 @@
             height: 9rem;}
         .modul {
             position: fixed;
-            top: calc(50% - 25rem / 2);
-            left: calc(50% - 25rem / 2);}
+            top: calc(50% - 23rem / 2);
+            left: calc(50% - 23rem / 2);}
         .modul div {color:#253439}
         .modul img {
             width: 20rem;
@@ -136,11 +136,11 @@
             height: 11rem;}
         .modul {
             position: fixed;
-            top: calc(50% - 25rem / 2);
-            left: calc(50% - 25rem / 2);}
+            top: calc(50% - 28rem / 2);
+            left: calc(50% - 28rem / 2);}
         .modul img {
-            width: 23rem;
-            height: 23rem;}
+            width: 25rem;
+            height: 25rem;}
     }
     @media only screen and (min-width: 1200px) {
         .portfolio {padding-top: 2.4rem;}
@@ -153,11 +153,13 @@
             height: 15rem;}
         .modul {
             position: fixed;
-            top: calc(50% - 25rem / 2);
-            left: calc(50% - 25rem / 2);}
+            top: calc(50% - 34rem / 2);
+            left: calc(50% - 34rem / 2);}
         .modul img {
-            width: 26rem;
-            height: 26rem;}
+            width: 31rem;
+            height: 31rem;}
+        .modul div {font-size: 1.7rem;}
+
     }
     @media only screen and (min-width: 1600px) {
         .portfolio {padding-top: 2.7rem;}
@@ -170,10 +172,12 @@
             height: 20rem;}
         .modul {
             position: fixed;
-            top: calc(50% - 25rem / 2);
-            left: calc(50% - 25rem / 2);}
+            top: calc(50% - 56rem / 2);
+            left: calc(50% - 56rem / 2);
+            padding: 3rem;}
         .modul img {
-            width: 31rem;
-            height: 31rem;}
+            width: 50rem;
+            height: 50rem;}
+        .modul div {font-size: 2rem;}
     }
 </style>

@@ -42,7 +42,7 @@
     .mainnav ul li a:hover{
         transition: 0.8s;
         background-color: #EFE7DD;
-        border-radius: 0.3rem;
+        border-radius: 0.28rem;
     }
     .navbar .logo {
         grid-row: 1 / 3;
@@ -62,40 +62,49 @@
 
     @media only screen and (min-width: 640px) {
         .navbar {
-            gap: 0.2em;
-            grid-template-columns: repeat(5, 1fr);
+            gap: 0em;
+            grid-template-columns: 0.9fr 1.1fr 1fr 1.1fr 0.9fr;
             grid-row: 1;
             height: 4.2em;}
-        .mainnav ul li a:hover{
-            border-radius: 0.25rem;
-            padding: 0.4rem 0.7rem;
-        }
         .mainnav {align-self: center;}
+        .mainnav ul li a{padding: 0.5rem 0.7rem;}
         .navbar .logo {grid-column: 3 / 4;
             grid-row: 1 / 2;
             align-self: center;}
-        .logo img {width: 6.5rem;
-            grid-row: 1;}
+        .logo img {width: 6.5rem; grid-row: 1;}
         .social {font-size: 0.9rem;
             grid-column: 1 / 2;
             grid-row: 1 / 2;
             align-self: center;}
+        .social a {margin: 0rem 0.15rem;}
         .form-select {
             grid-column: 5 / 6;
             font-size: 0.9rem;
             align-self: center;}
-        .navbar .mainnav .left {grid-column: 2 / 3;}
-        .navbar .mainnav .right {grid-column: 4 / 5;}
+        .navbar .mainnav .left {grid-column: 2 / 3; justify-content: space-evenly;}
+        .navbar .mainnav .right {grid-column: 4 / 5; justify-content: space-evenly;}
     }
     @media only screen and (min-width: 860px) {
         .social {font-size: 1rem;}
         .form-select {font-size: 1rem;}
         .navbar .left, .right {
             display: flex;
-            gap: 2.5rem;
+            gap: 1rem;
             justify-content: center;
         }
     }
-    @media only screen and (min-width: 1200px) {}
-    @media only screen and (min-width: 1600px) {}
+    @media only screen and (min-width: 1200px) {
+        .social {font-size: 1.1rem;}
+        .form-select {font-size: 1.1rem;}
+        .navbar .left, .right {gap: 1.1rem;}
+        .navbar ul li {font-size: 1.1rem;}
+    }
+    @media only screen and (min-width: 1600px) {
+        .social {font-size: 1.4rem;}
+        .form-select {font-size: 1.4rem;}
+        .navbar .left, .right {gap: 1.4rem;}
+        .navbar ul li {font-size: 1.4rem;}
+        .navbar {height: 5em;}
+        .logo img {width: 8rem;}
+    }
 </style> 
