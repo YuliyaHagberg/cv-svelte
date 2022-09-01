@@ -1,0 +1,49 @@
+.utbildning,
+.erfarenhet {
+    color: white;
+    background-color: #253439;
+    padding: 4rem;
+}
+
+.title {
+    font-family: 'Coco-Gothic';
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    line-height: 0.1rem;
+}
+
+.text1 {
+    font-family: 'Coco-Gothic';
+    letter-spacing: 0.09rem;
+    font-size: 0.8rem;
+    padding: 0.6rem 0rem;
+}
+
+.text2 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.07rem;
+    font-size: 0.8rem;
+}
+
+.text3 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.07rem;
+    font-size: 0.8rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.aside {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.logos {
+    max-width: clamp(30px, 4vw, 50px);
+}
+
+.flex-container {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+}

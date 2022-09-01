@@ -1,7 +1,8 @@
 <script>
     import Navbar from "../components/Navbar.svelte"
     import Footer from "../components/Footer.svelte"
-    import Button from "../components/Button.svelte"
+    import Button from "../components/ToTopButton.svelte"
+    import '../components/styles.css'
 </script>
 
 <Navbar/>

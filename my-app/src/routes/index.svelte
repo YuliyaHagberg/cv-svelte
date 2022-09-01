@@ -1,7 +1,8 @@
 <script>
     import Navbar from "../components/Navbar.svelte"
     import Footer from "../components/Footer.svelte"
-    import Button from "../components/Button.svelte"
+    import Button from "../components/ToTopButton.svelte"
+
 </script>
 
 <Navbar/>
@@ -99,8 +100,8 @@
             <img src="/Yuliyaphoto.svg" alt="En bild på Yuliya.">
         </div>
     </div>
-    <Button/>
 </section>
+<Button/>
 
 <Footer/>
 
